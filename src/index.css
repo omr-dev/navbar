@@ -13,6 +13,13 @@ body{
     color: var(--clr-grey-1);
     line-height: 1.5;
 }
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
 
 
 /*COLORS*/

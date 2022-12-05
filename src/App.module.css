@@ -1,0 +1,43 @@
+.nav{
+    background-color: var(--clr-white);
+    box-shadow: var(--light-shadow);
+
+}
+.navHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.6rem;
+
+}
+.logo{
+   height: 40px;
+}
+.btnMenu{
+    font-size: 2.4rem;
+    color: var(--clr-primary-5);
+    cursor: pointer;
+    background-color: transparent;
+    border-color: transparent;
+    transition: var(--transition);
+}
+.btnMenu:hover{
+    color: var(--clr-primary-1);
+    transform: rotate(90deg);
+}
+.linkList{
+    padding-left: 1.6rem;
+}
+.linkItem{
+  padding-bottom: .8rem;
+  padding-top: .8rem;
+    color: var(--clr-grey-3);
+    font-size: 1.6rem;
+    letter-spacing: var(--spacing);
+    transition: var(--transition);
+}
+.linkItem:hover{
+    background-color: var(--clr-primary-8);
+    color: var(--clr-primary-5);
+    padding-left: .8rem;
+}
